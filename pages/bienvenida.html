@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Titulo de la pestaña -->
+    <title>ViveTrips - Home</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div>
+                <img class="logo" src="../imagenes/logo.png" alt="logo ViveTrips">
+            </div>
+            <ul class="lista-nav">
+                <li>
+                    <a href="bienvenida.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#nosotros">Nosotros</a>
+                </li>
+                <li>
+                    <a href="../pages/nacionales.html">Destinos nacionales</a>
+                </li>
+                <li>
+                    <a href="../pages/internacionales.html">Destinos internacionales</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="presentacion">
+            <div class="contenido-principal">
+                <div class="contenedor-uno">
+                    <h1>Explora el Mundo con Nosotros</h1>
+                </div>
+                <div class="contenedor-dos">
+                    <img class="imagen-contenedor" src="../imagenes/playa-turistica.jpeg" alt="playa de hawaii">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="promociones">
+            <h2 class="titulo-promociones">Nuestros Paquetes en Promoción</h2>
+            <div class="paquetes-promocion">
+                <div class="paquete-item">
+                    <div>
+                        <img class="imagen" src="../imagenes/madrid.jpg" alt="centro de madrid en españa">
+                    </div>
+                    <div class="texto-paquete">
+                        <p class="destino">Madrid, España</p>
+                        <span class="precio-actual">$190</span>
+                        <span class="off">17% OFF</span>
+                        <p class="precio-antiguo">$230</p>
+                        <div class="boton">
+                            <button class="btn-reservar">Reservar ahora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="paquete-item">
+                    <div>
+                        <img class="imagen" src="../imagenes/bariloche.jpg" alt="ciudad de bariloche en argentina">
+                    </div>
+                    <div class="texto-paquete">
+                        <p class="destino">Bariloche, Argentina</p>
+                        <span class="precio-actual">$150</span>
+                        <span class="off">20% OFF</span>
+                        <p class="precio-antiguo">$185</p>
+                        <div class="boton">
+                            <button class="btn-reservar">Reservar ahora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="paquete-item">
+                    <div>
+                        <img class="imagen" src="../imagenes/zurich.jpg" alt="ciudad de zurich en suiza">
+                    </div>
+                    <div class="texto-paquete">
+                        <p class="destino">Zürich, Suiza</p>
+                        <span class="precio-actual">$210</span>
+                        <span class="off">25% OFF</span>
+                        <p class="precio-antiguo">$280</p>
+                        <div class="boton">
+                            <button class="btn-reservar">Reservar ahora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="paquete-item">
+                    <div>
+                        <img class="imagen" src="../imagenes/salta.jpg" alt="ruta en salta en argentina">
+                    </div>
+                    <div class="texto-paquete">
+                        <p class="destino">Salta, Argentina</p>
+                        <span class="precio-actual">$175</span>
+                        <span class="off">12% OFF</span>
+                        <p class="precio-antiguo">$200</p>
+                        <div class="boton">
+                            <button class="btn-reservar">Reservar ahora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="paquete-item">
+                    <div>
+                        <img class="imagen" src="../imagenes/playa-hawaii.jpg" alt="naturaleza de la isla hawaii">
+                    </div>
+                    <div class="texto-paquete">
+                        <p class="destino">Hawaii, USA</p>
+                        <span class="precio-actual">$245</span>
+                        <span class="off">18% OFF</span>
+                        <p class="precio-antiguo">$300</p>
+                        <div class="boton">
+                            <button class="btn-reservar">Reservar ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+
+        <section class="nosotros" id="nosotros">
+            <div class="contenedor-nosotros">
+                <div class="contenedor-uno">
+                    <img class="imagen-contenedor" src="../imagenes/costa-italia.jpeg" alt="costa de italia">
+                </div>
+                <div class="contenedor-dos">
+                    <img class="imagen-contenedor" src="../imagenes/paseo-mercado.jpeg" alt="paseo de mercado">
+                </div>
+            </div>
+            <h2 class="titulo-nosotros">Acerca de nosotros</h2>
+            <p class="parrafo-nosotros">En ViveTrips, nos dedicamos a brindarte experiencias de viaje inolvidables. Nuestros paquetes turísticos a destinos nacionales e internacionales te permiten explorar el mundo de una manera única. Con una duración que va de una a cuatro semanas, cada viaje es una oportunidad para crear recuerdos inolvidables y sumergirte en diferentes culturas, paisajes y aventuras.</p>
+        </section>
+
+
+        <section class="contacto" id="contacto">
+            <h2 class="titulo-contacto">Contactanos</h2>
+            <form id="formulario-contacto" class="formulario-contacto" action="https://formspree.io/f/xgvnoedq" method="POST" novalidate>
+                <!-- 
+                <div>
+                    <label for="name">
+                      Nombre:
+                    </label>
+                    <br>
+                    <input class="input" type="text" id="name" name="name" placeholder="Ej: Juan Pérez">
+                </div>
+               <br>
+               -->
+               <div>
+                    <label for="email">
+                      Email*:
+                    </label>
+                    <br>
+                    <input class="input" type="email" id="email" name="email" placeholder="Ej: juanP@hotmail.com" required>
+               </div>
+               <br>
+               <div>
+                    <label for="subject">
+                      Asunto*:
+                    </label>
+                    <br>
+                    <input class="input" type="text" id="subject" name="subject" placeholder="Ej: Consulta sobre paquetes internacionales" required>
+               </div>
+               <br>
+               <div>
+                    <label for="message">
+                      Tu consulta*:
+                    </label>
+                    <br>
+                    <textarea class="textarea" name="message" id="message" rows="8" cols="35" placeholder="Escriba su consulta" required></textarea>
+               </div>
+        
+               <br>
+  
+               <button class="btn-enviar" id="btn-contacto" disabled="true">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <div class="contenedor-footer">
+            <div class="principal">
+              <h2 class="titulo-footer">ViveTrips</h2>
+            </div>
+            <div class="info">
+              <p>0-800-453-897</p>
+              <p>54-15-9087-6543</p>
+              <nav>
+                <ul>
+                    <li>
+                        <a href="bienvenida.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="bienvenida.html#nosotros">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="../pages/nacionales.html">Destinos Nacionales</a>
+                    </li>
+                    <li>
+                        <a href="../pages/internacionales.html">Destinos Internacionales</a>
+                    </li>
+                    <li>
+                        <a href="bienvenida.html#contacto">Contacto</a>
+                    </li>
+                </ul>
+              </nav>
+              <div class="redes">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="icono" src="../imagenes/facebook.png" alt="icono facebook">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img class="icono" src="../imagenes/instagram.png" alt="icono instagram">
+                </a>
+                <a href="https://www.x.com/" target="_blank">
+                    <img class="icono" src="../imagenes/x.png" alt="icono x">
+                </a>
+            </div>
+            </div>
+            <div class="mapa">
+               <iframe class="ubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26272.869356901327!2d-58.54301682568361!3d-34.6014135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb799d04a9987%3A0xbf0999014372bb6!2sAlmundo%20Villa%20Devoto!5e0!3m2!1ses!2sar!4v1758997309885!5m2!1ses!2sar" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <p class="derechos">© 2025 by ViveTrips.All rights reserved</p>
+    </footer>
+
+    <!-- JS -->
+     <script src="../js/form-contacto.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+     <link rel="stylesheet" href="css/index.css">
+    <!-- Titulo de la pestaña -->
+    <title>ViveTrips - Login</title>
+</head>
+<body class="body-login">
+
+    <main>
+        <div id="email_vacio"></div>
+        <div id="pass_vacio"></div>
+        <div id="email_error"></div>
+        <div id="pass_error"></div>
+        <section class="contenedor-forms">
+            <div class="container-form">
+                <form action="" class="form-login" id="login" novalidate>
+                   <h2>Iniciar Sesión</h2>
+                   <p>Ingrese su correo electrónico y contraseña</p>
+                   <label for="email_inicio">Correo electrónico*:</label>
+                   <div class="container-input">
+                       <input type="email" name="email_inicio" id="email_inicio">
+                   </div>
+                   <label for="pass_inicio">Contraseña*:</label>
+                   <div class="container-input">
+                       <input type="password" name="pass_inicio" id="pass_inicio">
+                   </div>
+                   <button class="button" id="btn-login">Iniciar Sesión</button>
+                </form>
+            </div>
+            <div class="container-form">
+                <form action="" class="form-registro" novalidate>
+                    <h2>Regístrate aquí</h2>
+                    <p>Use su correo electrónico para registrarse</p>
+                    <label for="email_registro">Correo electrónico*:</label>
+                    <div class="container-input">
+                       <input type="email" name="email_registro" id="email_registro">
+                    </div>
+                    <label for="pass_registro">Contraseña*:</label>
+                    <div class="container-input">
+                       <input type="password" name="pass_registro" id="pass_registro">
+                    </div>
+                    <button class="button" id="btn-registrar">Registrarse</button>
+                </form>
+            </div>
+
+            <div class="contenedor-bienvenida">
+                <div class="bienvenida-inicio-sesion bienvenida">
+                   <h3>¡Bienvenido!</h3>
+                   <p>Ingrese sus datos para iniciar sesión y disfrutar de todas las funcionalidades del sitio</p>
+                   <button class="button" id="btn-registro">Registrarse</button>
+                </div>
+                <div class="bienvenida-registro bienvenida">
+                   <h3>¡Hola!</h3>
+                   <p>Registrate con tus datos personales para disfrutar de todas las funcionalidades del sitio</p>
+                   <button class="button" id="btn-inicio">Iniciar Sesión</button>
+                </div>
+            </div>
+        </section>
+
+       
+    </main>
+
+    <!-- JS -->
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
